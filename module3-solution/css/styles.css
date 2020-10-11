@@ -1,0 +1,104 @@
+body{
+	font-size: 16px;
+	color:black;
+	background-color:white;
+	font-family: 'oxygen',sans-serif;
+	background-color:lightgrey;
+
+
+}
+#header-nav{
+	background-color: grey;
+	border-radius: 0;
+	border:0;
+	
+}
+.navbar-header h1{
+	font-size: 1.5em;
+	color:black;
+	margin-top: 0;
+}
+.navbar-header li{
+	border-bottom: 1px solid black;
+	}
+
+#nav-list{
+	margin-bottom: 0px;
+	margin-top: 0;
+	background-color:orange;
+	}
+#nav-list a:hover{
+background-color: white;
+}
+
+#nav-list a{
+	color:purple;
+}
+
+.navbar-brand button.navbar-toggle{
+	/*clear:both; */
+	
+	}
+div.navbar-collapse{
+	clear:both;
+}
+
+#our-menu{
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 2em;
+}
+
+#menu-tiles{
+	
+	width:100%;
+	
+
+}
+#paneer div,#pani-puri div,#pav-baji div{
+	/*margin:20px 30px 20px 30px;*/
+}
+#paneer{
+	border:1px solid black;
+	background-color: cyan;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	
+}
+#pav-baji{
+	border:1px solid black;
+	background-color:gold;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	
+}
+#pani-puri{
+	border:1px solid black;
+	background-color:limegreen;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	
+}
+#paneer a,#pani-puri a,#pav-baji a{
+	font-style:italic;
+	font-size:0.9em;
+}
+
+
+.menu-piece div{
+	font-size: 1.2em;
+    font-family: 'Sansita Swashed', cursive; 
+	color:red;
+	padding:5px 10px 10px 10px;
+	
+}
+.menu-piece  span{
+	font-size: 1.5em;
+	font-style: italic;
+	color:black;
+	width:100%;
+	text-align: center;
+	
+}
